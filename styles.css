@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    border-style: inset;
 }
 
 body {
@@ -17,6 +18,12 @@ nav {
     font-family: 'Courier New', Courier, monospace;
     background-color: #fff;
     font-size: 14px;
+}
+a {
+    transition: color 1s;
+}
+a:hover {
+    color:green;
 }
 .main {
     color: #007BFF;
@@ -58,6 +65,7 @@ nav {
     padding: 20px;
     line-height: 15px;
     font-size: 18px;
+    box-shadow: 10px 10px;
 }
 
 @media screen and (max-width: 600px) {
